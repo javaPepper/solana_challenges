@@ -1,5 +1,15 @@
 {
   "compilerOptions": {
-    "strict": false
-  }
+    "strict": false,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
