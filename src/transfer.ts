@@ -2,7 +2,7 @@ import { Connection, Transaction, SystemProgram, sendAndConfirmTransaction, Publ
 import * as dotenv from 'dotenv';
 import { getKeypairFromEnvironment } from '@solana-developers/helpers';
 
-  dotenv.config();
+dotenv.config();
 
 const pubkey = new PublicKey(getKeypairFromEnvironment('SECRET_KEY').publicKey);
 const connection = new Connection('https://api.devnet.solana.com', 'confirmed')
